@@ -13,7 +13,7 @@
 
         public User CreatedBy { get; set; }
 
-        public  ICollection<User> AssignedTo { get; set; }
+        public  List<User> AssignedTo { get; set; }
 
         public STATUS Status {  get; set; }
 
